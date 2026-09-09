@@ -67,3 +67,9 @@ npm start               # starts the API server
 
 Serve `client/dist` with any static host, or add static-file serving to
 `server/server.js` if you want one process to serve both.
+
+
+
+crediantials:
+   email: test@gmail.com
+   password : 123456
