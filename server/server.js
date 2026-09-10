@@ -116,7 +116,7 @@ mongoose
   .connect(MONGODB_URI)
   .then(() => {
     console.log("Connected to MongoDB");
-    app.listen(PORT, HOST, (error) => {
+    app.listen(PORT, '0.0.0.0', (error) => {
       if (error) {
         console.log("Error starting the server:", error.message);
         return;
